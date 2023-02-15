@@ -26,7 +26,7 @@ import {
 const Home = () => {
   return (
     <section className="p-8">
-      <div className="border-[2px] border-[#4A5767] pl-8 py-8 rounded-xl h-[1162px] relative">
+      <div className="border-[2px] border-[#4A5767] pl-8 py-8 rounded-xl h-[930px] relative">
         <div className="grid grid-cols-12 gap-x-8">
           <div className="col-span-8">
             <div className="flex justify-between mb-2.5">
@@ -51,7 +51,7 @@ const Home = () => {
             <hr className="border-[1px] text-[#4A5767] mb-[17px]" />
             <div>
               <img
-                className="h-[763px] w-[1114px]"
+                className="h-[700px] w-[1114px]"
                 src={heroImg}
                 alt="hero-images"
               />
@@ -107,8 +107,8 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="w-[332px]">
-            <div className="bg-gray-100 rounded-tl-lg rounded-bl-lg">
+          <div className="w-[332px] h-[137vh] scrollbar-thin scrollbar-thumb-gray-600">
+            <div className="bg-slate-100 rounded-tl-lg rounded-bl-lg">
               <div class="flex items-center py-4">
                 <div class="flex-grow border-[1px] bg-[#A9B0B9]"></div>
                 <span class="flex-shrink text-[15px] text-[#4A5767] px-4 font-extrabold">
